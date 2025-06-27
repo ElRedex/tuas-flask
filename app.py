@@ -39,3 +39,7 @@ def home():
                                extranjeros=extranjeros, wch_llegada=wch_llegada,
                                wch_salida=wch_salida, cobs=cobs)
     return render_template("formulario.html")
+
+    if __name__ == "__main__":
+    app.run(host="0.0.0.0", port=10000)
+
